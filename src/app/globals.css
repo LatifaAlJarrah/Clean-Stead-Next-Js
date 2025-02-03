@@ -68,18 +68,12 @@
     border-radius: 25px;
   }
   .header-one {
-    /* font-weight: 800;
-    font-size: 50px;
-    line-height: 70px; */
     color: #1d1d35;
   }
   .span-color {
     color: rgba(143, 201, 48, 1);
   }
   .header-two {
-    /* font-weight: 300;
-    font-size: 30px;
-    line-height: 46px; */
     color: #7d7e82;
   }
   .btn-contact {
@@ -103,17 +97,9 @@
   .list-items:hover {
     color: #00adee;
   }
-  /* .background-image-two { */
-  /* position: absolute; */
-  /* right: 100px; */
-  /* } */
-  /* .background-image-two {
-    left: 160px; 
-    z-index: -1; 
-  } */
   .container {
     max-width: 1200px;
-    padding: 0 1rem; /* Adjust side spacing */
+    padding: 0 1rem;
   }
 
   .grid {
@@ -137,13 +123,6 @@
   .card-shadow {
     box-shadow: 0px 8px 24px 0px #00adee1a;
   }
-  /*
-  color: transparent;
-    position: absolute;
-    left: 196px;
-    z-index: -1;
-  */
-  /* الهيدر */
   header {
     position: relative;
     overflow: hidden;
@@ -242,4 +221,88 @@
   .person-name {
     color: rgba(47, 50, 57, 1);
   }
+}
+
+/* booking    */
+.num-step-one {
+    background-color: rgba(0, 173, 238, 1)
+}
+.num-step-two,
+.num-step-three {
+    border: 1px solid #C4C4C4
+}
+
+.num-step-two:focus-visible,
+.num-step-three:focus-visible {
+    background-color: rgba(0, 173, 238, 1);
+    color: white;
+}
+.num-step-two,
+.num-step-three,
+.text-step-two,
+.text-step-three { 
+    color: #C4C4C4;
+}
+
+.line-color,
+.color-booking-date {
+    color: rgba(196, 196, 196, 1);
+}
+
+.t-con {
+    border-radius: 10px 0 ;
+}
+
+.service-container,
+.booking-date {
+    border: 2px solid rgba(242, 242, 242, 1);
+}
+
+.dropdown-menu {
+    color: rgba(0, 173, 238, 1);
+}
+
+.btn-back {
+    border: 1px solid #00ADEE;
+    color: #00ADEE;
+}
+
+.btn-booking {
+    background-color: #00ADEE;
+    color: white;
+}
+
+.break-line {
+    height: 20px;
+}
+
+.booking-list {
+    box-shadow: 0px 0px 12px 0px #00ADEE1A;
+}
+
+.summery {
+    background-color: rgba(229, 247, 253, 1);
+}
+
+.text-color {
+    color: rgba(125, 126, 130, 1);
+}
+
+.btn-increment,
+.btn-decrement {
+    background-color: rgba(229, 247, 253, 1);
+    color: #C4C4C4;
+}
+
+.counter {
+    color: black;
+    border: 1px solid  rgba(229, 247, 253, 1);
+}
+
+.sign-up-text {
+    color: #00ADEE;
+}
+
+.error-message {
+    color: red;
 }
