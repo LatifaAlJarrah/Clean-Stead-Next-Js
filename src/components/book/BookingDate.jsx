@@ -4,7 +4,7 @@ import { FaCalendarAlt } from "react-icons/fa";
 import { Field, ErrorMessage, useFormikContext } from "formik";
 
 const BookingDate = () => {
-  const { values, setFieldValue, errors, touched } = useFormikContext();
+  const { errors, touched } = useFormikContext();
 
   const options = [
     { value: "once", label: "مره واحده" },
@@ -39,11 +39,11 @@ const BookingDate = () => {
             </label>
           ))}
         </div>
-        <ErrorMessage
-          name="serviceRepeat"
-          component="div"
-          className="text-red-500 text-sm mt-2"
-        />
+        {errors.serviceRepeat && touched.serviceRepeat && (
+          <div className="text-red-500 text-sm mt-2">
+            {errors.serviceRepeat}
+          </div>
+        )}
       </div>
 
       <div className="my-12">
